@@ -1,0 +1,60 @@
+Act as a Senior Full-Stack Web Application Architect and UI/UX Designer. Build a complete, responsive, and production-ready Single-Page Application (SPA) for a "Personal Life Operating System, Time Management & Growth Tracker" inside a single `index.html` file using clean modern HTML5, CSS3 (Modern Dark Mode with slate/navy theme), and Vanilla JavaScript. 
+
+The entire app must run locally, require zero backend or external database, and store all state reliably in `localStorage`. All UI labels, buttons, headers, forms, and analytics text must be in clean, professional English.
+
+---
+
+### Core Functional Modules & Architecture:
+
+1. **Dashboard & Unified Day Score (Home View):**
+   - Live real-time digital clock, date selector (to switch and review past/future dates), and active daily streak counter.
+   - Comprehensive "Day Score" algorithm (0% to 100%) that dynamically calculates completion across scheduled tasks, daily habits, and wellness activities.
+   - Summary Metric Cards: Tasks Pending/Done, Habits Completed, Total Water Intake, and Active Milestone Goals.
+
+2. **Date & Time-Based Task Scheduler & To-Do Engine:**
+   - Add tasks with: Title, Category (Business/Tour, Operations/Field, Self Growth, Personal), Priority (High, Medium, Low), Scheduled Date, and Exact Time Slot (e.g., 09:30 AM - 11:00 AM).
+   - Tasks must be sorted chronologically by time.
+   - Features: Mark as Complete (strikethrough), Edit inline, Delete, and Filter by status (All / Active / Completed).
+   - Date navigation to easily plan upcoming days or review past task performance.
+
+3. **Habit, Wellness & Mind-Body Tracker:**
+   - Dedicated trackers with instant interactive counters:
+     - Water Intake Tracker: Target 8 glasses / 3 liters with simple `+` and `-` buttons.
+     - Running & Cardio: Log distance in Kilometers and workout duration in minutes.
+     - Yoga Practice: Duration tracker (minutes) with completion toggle.
+     - Meditation & Mindfulness: Duration tracker (minutes) with completion toggle.
+     - Custom Habits: Input field to add custom daily habits with checkboxes.
+
+4. **"What I Did Today" Activity Logger (Real-Time Timeline):**
+   - Spontaneous work and activity logger for unscheduled wins, phone calls, meetings, or field operations.
+   - Automatic real-time timestamping for every entry (e.g., `[02:15 PM] Finished client proposal`).
+   - Clean timeline view with ability to delete entries.
+
+5. **Goals & Growth Plan Roadmap:**
+   - Tiered Goal Hierarchy:
+     - Short-Term (Weekly / Monthly targets)
+     - Mid-Term (Quarterly projects)
+     - Long-Term Vision (Annual milestones)
+   - Interactive Progress Slider (0% to 100%) for each goal.
+   - Target deadline date tracker showing a countdown of days remaining.
+
+6. **Daily & Weekly Review & Reflection System:**
+   - End-of-Day Evening Review form:
+     - 5-Star Discipline & Energy Rating scale.
+     - "Top Wins & Highlights Today" (textarea).
+     - "Key Learnings & Takeaways" (textarea).
+     - "Challenges, Blockers & Tomorrow's Improvements" (textarea).
+   - Review history archive searchable by date so past reflections can be reviewed anytime.
+
+7. **Analytics & Growth Direction Engine:**
+   - Embedded Chart.js visualizations:
+     - Focus Distribution (Doughnut Chart): Time/effort split across Business, Operations, Wellness, and Personal Growth.
+     - 7-Day Consistency Trend (Line/Bar Chart): Tracking daily completion percentage over the last week.
+   - Growth insights highlighting which area received the most attention.
+
+8. **Data Persistence, Security & UX:**
+   - Fully optimized for mobile viewports (iPhone Safari "Add to Home Screen" PWA-ready layout).
+   - Bottom floating navigation bar with tabs: [Schedule] | [Habits] | [Activity Log] | [Goals] | [Review] | [Analytics].
+   - "Backup & Restore" feature: One-click export of all data to a JSON file, and an import feature to restore data anytime.
+
+Please output the complete, clean, bug-free, and well-structured code inside a single `index.html` file without placeholders or omitted functions.
